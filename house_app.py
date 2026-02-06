@@ -69,7 +69,7 @@ st.write("Extracting insights from the Ames Housing Dataset to provide high-accu
 # ---------------- DATA LOADING ----------------
 # Use local house_prices.csv as the permanent data source
 try:
-    df = pd.read_csv('/Users/prithviraj/Desktop/House/house_prices.csv')
+    df = pd.read_csv('house_prices.csv')
 except Exception as e:
     st.error(f"❌ Error: Could not find 'house_prices.csv' at the expected location. Details: {e}")
     st.stop()
